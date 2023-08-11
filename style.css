@@ -1,0 +1,44 @@
+body{
+    background-color: #191620;
+    color: #ffffff;
+    font-family: courier;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1{
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+#grid{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grid tr td{
+    border: 1px solid #252222;
+    background-color: #635e5e;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+#grid tr td.active{
+    background-color: #473737;
+}
+
+#grid tr td.mine{
+    background-color: #ff3c00;
+}
+
+button{
+    margin: 12px 0;
+    padding: 4px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
